@@ -44,7 +44,17 @@
     <!-- Content Section -->
     <section class="py-16">
         <div class="container">
-            <div class="semester-grid">
+            <!-- Tabs Navigation -->
+            <div class="tabs-container">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="tab-syllabus">Syllabus</button>
+                    <button class="tab-btn" data-tab="tab-notes">Study Notes</button>
+                </div>
+            </div>
+
+            <!-- Tab 1: Syllabus -->
+            <div id="tab-syllabus" class="tab-content active">
+                <div class="semester-grid">
                 
                 <!-- Semester 1 -->
                 <div class="semester-card animate-fade-up">
@@ -97,6 +107,67 @@
                     </div>
                 </div>
 
+                </div>
+            </div>
+
+            <!-- Tab 2: Study Notes -->
+            <div id="tab-notes" class="tab-content">
+            <div class="folder-tree animate-fade-up">
+                <!-- Main Folder: An Astrologer's Day -->
+                <div class="folder">
+                    <div class="folder-header">
+                        <i class="fa-solid fa-folder"></i>
+                        <i class="fa-solid fa-folder-open"></i>
+                        An Astrologer's Day
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <div class="folder-content">
+                        
+                        <!-- Sub-Folder: Summary -->
+                        <div class="folder">
+                            <div class="folder-header">
+                                <i class="fa-solid fa-file-lines"></i>
+                                Summary
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                            <div class="folder-content">
+                                <div class="study-note" style="line-height: 1.8; color: var(--text-body); font-size: 1.05rem; padding: 1.5rem; background: rgba(59, 130, 246, 0.02); border: 1px solid rgba(0,0,0,0.05); border-radius: var(--radius-md);">
+                    <p>The story “An Astrologer’s Day” is set in the fictional town of Malgudi, a recurring setting in many of R.K. Narayan's works. It revolves around an astrologer who makes a living by telling people their fortunes. He is depicted as a man with a mysterious past, and he sits by the side of the street, offering his services to passers-by.</p>
+
+                    <h4 style="color: var(--primary-blue); margin-top: 2rem; margin-bottom: 0.5rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem;">Introduction to the Astrologer</h4>
+                    <p>The astrologer is introduced as a man who has perfected the art of reading palms and predicting futures. His shop is located at the corner of a busy street in Malgudi, and he uses his knowledge to earn a living. People come to him for advice, especially regarding personal or important matters. He seems to have all the answers to their questions.</p>
+                    <p style="margin-top: 1rem;">He wears a turban and a long robe, giving him the look of someone who is deeply immersed in the ancient and mystical arts. He talks in an authoritative voice and uses certain gestures and sayings that make him appear very knowledgeable.</p>
+                    <p style="margin-top: 1rem;">However, there’s more to the astrologer than meets the eye. He has a dark past, one that he’s trying to escape by taking on this new identity. He is not just an astrologer; he’s a man hiding from his past mistakes.</p>
+
+                    <h4 style="color: var(--primary-blue); margin-top: 2rem; margin-bottom: 0.5rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem;">The Encounter with the Stranger</h4>
+                    <p>One evening, after a long day of work, the astrologer packs up his things to go home, but just as he’s about to leave, a man approaches him. This man is different from the usual customers. He seems distraught, and there is an intense, mysterious air about him. He requests the astrologer to tell him about his future, as he is clearly troubled and anxious.</p>
+                    <p style="margin-top: 1rem;">The astrologer agrees to read his palm and begins the conversation in his typical style, explaining that he can tell the man’s future and give him answers to his questions. The man listens attentively, and it soon becomes clear that he is not just seeking a casual prediction; he is looking for something deeper.</p>
+
+                    <h4 style="color: var(--primary-blue); margin-top: 2rem; margin-bottom: 0.5rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem;">The Prediction and Revelation</h4>
+                    <p>The astrologer, using his skill, tells the stranger that he is in great danger, but he will survive. The astrologer describes a series of incidents that seem to have happened to the man in his past, revealing details about the man’s past life that he could not have possibly known.</p>
+                    <p style="margin-top: 1rem;">The astrologer continues, stating that the man had been involved in a violent fight, one that could have killed him. The man is shocked, as these words strike a chord with him. He realizes that the astrologer is describing a traumatic event from his own past, a time when he had fought with another man.</p>
+                    <p style="margin-top: 1rem;">The astrologer tells him that the man had been the one who was supposed to have been killed in the fight, but fate had saved him. The astrologer’s words continue to calm the man down, and he appears both relieved and amazed at the accuracy of the prediction.</p>
+
+                    <h4 style="color: var(--primary-blue); margin-top: 2rem; margin-bottom: 0.5rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem;">The Astrologer's Past</h4>
+                    <p>As the story progresses, it is revealed that the astrologer himself has a hidden past. Many years ago, he had been a young man working as a laborer in a village. One night, he had a violent argument with a man, which escalated into a fight. In the heat of the moment, the astrologer had struck the man and left him lying in a pool of blood, believing that he had killed him.</p>
+                    <p style="margin-top: 1rem;">Fearing the consequences of his actions, the astrologer fled the village, changed his identity, and started a new life in Malgudi as an astrologer. He buried his past and never expected to encounter the person he had harmed.</p>
+
+                    <h4 style="color: var(--primary-blue); margin-top: 2rem; margin-bottom: 0.5rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem;">The Shocking Twist</h4>
+                    <p>As the astrologer continues talking to the man, he reveals more details that seem to soothe the man’s anxiety. The stranger seems to be deeply affected by the astrologer’s words, and just as the astrologer is about to finish, the man asks if he can go on with his life without fear of retribution. The astrologer assures him that he will be fine, and that no harm will come to him in the future.</p>
+                    <p style="margin-top: 1rem;">Before leaving, the stranger gives the astrologer a small amount of money and thanks him for his help. As the man walks away, the astrologer’s mind begins to race, and he suddenly realizes something— the man who had come to him for answers was none other than the same person he had once thought he had killed in that old fight.</p>
+                    <p style="margin-top: 1rem;">The stranger had survived, just as the astrologer had predicted, and was now seeking closure and peace with his past. The story ends with the astrologer reflecting on how fate had turned their lives in unexpected ways.</p>
+
+                    <h4 style="color: var(--primary-blue); margin-top: 2rem; margin-bottom: 0.5rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem;">Themes and Moral of the Story</h4>
+                    <ul style="list-style-type: disc; margin-left: 1.5rem; margin-top: 0.5rem;">
+                        <li><strong>Fate and Self-deception:</strong> The story explores the theme of fate and how people often try to escape their past or shape their future. The astrologer is a man who has tried to leave behind the mistakes of his youth, but his past catches up with him unexpectedly.</li>
+                        <li style="margin-top: 0.5rem;"><strong>The Power of the Past:</strong> The past shapes who we are, and no matter how far we run, it often has a way of resurfacing. The astrologer thought he had escaped his past, but in the end, it catches up with him in a way he never expected.</li>
+                        <li style="margin-top: 0.5rem;"><strong>Truth and Lies:</strong> The astrologer tells many lies and makes many predictions, but in the end, the truth comes out. The story shows that even in a world of deception, the truth is always lurking just beneath the surface.</li>
+                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
